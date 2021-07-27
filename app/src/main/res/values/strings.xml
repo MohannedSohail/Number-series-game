@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Number series game</string>
+
+    <string-array name="Country">
+        <item name="Country" type="string">Country</item>
+        <item name="palestine" type="string">Palestine</item>
+        <item name="Egypt" type="string">Egypt</item>
+        <item name="uk" type="string">UK</item>
+        <item name="usa" type="string">USA</item>
+        <item name="jordan" type="string">Jordan</item>
+        <item name="Turkey" type="string">Turkey</item>
+    </string-array>
+
+</resources>

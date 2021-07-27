@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sh_disp"
+    android:orientation="vertical"
+    tools:context=".change_passward">
+
+    <EditText
+        android:id="@+id/change_ed_oldpassward"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Enter your old passward"
+        android:inputType="textPassword"
+        android:padding="15dp"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/change_ed_newpassward"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Enter your new passward"
+        android:inputType="textPassword"
+        android:padding="15dp"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/change_ed_renewpassward"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Re_enter your new passward"
+        android:inputType="textPassword"
+        android:padding="15dp"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/change_btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/sh_btn_register"
+        android:padding="15dp"
+        android:text="save"
+        android:textSize="20sp" />
+</LinearLayout>

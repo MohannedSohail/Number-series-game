@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sh_disp"
+    android:orientation="vertical"
+    tools:context=".Register">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/areg_ed_fullname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Full Name"
+            android:inputType="textPersonName"
+            android:padding="15dp"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/areg_imv_user"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/sh_img"
+            android:padding="3dp"
+            app:srcCompat="@drawable/user128" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/areg_ed_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/areg_ed_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:hint="User Name"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/areg_ed_pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="passward"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/areg_ed_repass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="re_passward"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/areg_sp_country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:entries="@array/Country"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/areg_ed_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:hint="Birth Date"
+        android:inputType="date"
+        android:padding="10dp"
+        android:textSize="18sp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/areg_rb_male"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:checked="true"
+            android:padding="10dp"
+            android:text="Male"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/areg_rb_female"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="Female"
+            android:textSize="18sp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/areg_btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/sh_ac_save"
+        android:padding="15dp"
+        android:text="save"
+        android:textSize="22sp" />
+
+</LinearLayout>
